@@ -1,0 +1,52 @@
+{
+  "name": "node-scafold",
+  "version": "1.0.0",
+  "description": "typescript scafold for node.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "lint": "eslint --ignore-path .gitignore --ext .js, .ts",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "build": "node --max-old-space-size=4096 $(which tsc) && mkdir dist/src/public && mkdir dist/src/pubic/files",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravatkiran/lancers-backend.git"
+  },
+  "author": "Pravat Kiran Kumal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravatkiran/lancers-backend/issues"
+  },
+  "homepage": "https://github.com/pravatkiran/lancers-backend#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^1.4.11",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1",
+    "generate-password-ts": "^1.6.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.0",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.1",
+    "query-string": "^9.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  }
+}
