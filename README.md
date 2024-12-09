@@ -18,8 +18,8 @@ A boilerplate project for building REST APIs using **TypeScript**, **Express.js*
 
 Ensure you have the following installed:
 
-- **Node.js** (v14 or later)
-- **npm** (v6 or later)
+- **Node.js** (v18 or later)
+- **npm** (v10 or later)
 - **MongoDB** (local or cloud instance)
 
 ---
