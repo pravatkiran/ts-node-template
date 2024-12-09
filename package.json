@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pravatkiran/lancers-backend.git"
+    "url": "git+https://github.com/pravatkiran/ts-node-template.git"
   },
   "author": "Pravat Kiran Kumal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pravatkiran/lancers-backend/issues"
+    "url": "https://github.com/pravatkiran/ts-node-template/issues"
   },
-  "homepage": "https://github.com/pravatkiran/lancers-backend#readme",
+  "homepage": "https://github.com/pravatkiran/ts-node-template#readme",
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/body-parser": "^1.19.5",
