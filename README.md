@@ -31,3 +31,41 @@ Ensure you have the following installed:
    git clone https://github.com/your-username/ts-node-template.git
    cd ts-node-template
    ```
+2. **Install dependencies
+   ```bash
+   npm install
+   ```
+## Scripts
+
+1. **Run the project locally
+   ```bash
+   npm run dev
+   ```
+   Starts the development server with hot-reloading for local development.
+
+2. **Build the project
+   ```bash
+   npm run build
+   ```
+   Compiles the TypeScript code into JavaScript and outputs it to the dist folder.
+
+3. **Run linting
+   ```bash
+   npm run lint
+   ```
+   Checks the codebase for linting errors using ESLint.
+
+## Environment Variables 
+   The application uses environment variables to configure the application. Create a .env file in the root of your project with the following variables:
+   PORT=3000
+   MONGO_URI=mongodb://localhost:27017/your-database
+   TOKEN_SECRET=Your_secret
+
+   Replace your-database with your actual MongoDB database name or connection string and Your_secret for secrets used for bcrypt.
+
+## Contribution
+   Feel free to fork this repository, make changes, and submit pull requests. Contributions are always welcome!
+
+
+
+
